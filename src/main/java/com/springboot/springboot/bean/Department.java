@@ -4,7 +4,7 @@ package com.springboot.springboot.bean;
  * @author yidong
  * @create 2019-02-26-10:39
  */
-public class Deparment {
+public class Department {
     private Integer id;
     private String name;
 

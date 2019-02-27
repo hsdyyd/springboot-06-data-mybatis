@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @author yidong
  * @create 2019-02-26-17:19
  */
+
 @Configuration
 public class MyBatisConfig {
     @Bean

@@ -23,6 +23,12 @@ spring:
         useGlobalDataSourceStat: true
         connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
         initialization-mode: always
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+#  configuration:
+#    map-underscore-to-camel-case: true
+
 #        schema:
 #          - classpath:sql/schema.sql
 #        data:
